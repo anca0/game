@@ -25,6 +25,7 @@ function displayScore() {
 }
 function rock() {
   let computerChoice = generateRandomChoice();
+  let ancaR;
   if (computerChoice === "paper") {
     document.getElementById(
       "result"
